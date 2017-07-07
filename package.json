@@ -1,0 +1,11 @@
+{
+  "name": "abilitydraft.net",
+  "version": "1.0.0",
+  "description": "PWA for Fetching ability draft information quickly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Shaw",
+  "license": "ISC"
+}
