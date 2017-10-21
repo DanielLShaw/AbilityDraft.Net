@@ -4,7 +4,8 @@
   "description": "PWA for Fetching ability draft information quickly",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm index.js"
   },
   "author": "Daniel Shaw",
   "license": "ISC"
