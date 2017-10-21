@@ -8,5 +8,19 @@
     "start": "node index.js"
   },
   "author": "Daniel Shaw",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielLShaw/AbilityDraft.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DanielLShaw/AbilityDraft.github.io/issues"
+  },
+  "homepage": "https://github.com/DanielLShaw/AbilityDraft.github.io#readme"
 }
