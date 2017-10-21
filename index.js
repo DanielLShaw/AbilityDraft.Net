@@ -11,6 +11,8 @@ app.set('view engine', 'handlebars');
 var publicPath = path.join(__dirname, 'views');
 app.use('/', express.static(publicPath));
 
+app.set('port', (process.env.PORT || 5000));
+
 var apiKey = "758D99DAA60FFCA9D8BF39EF6AD51D41";
 
 app.get('/test', function (req, res, next) {
@@ -43,8 +45,8 @@ app.get('/test', function (req, res, next) {
 });
 
 
-app.listen(3000, function () {
-  console.log('AbilityDraft.net is listening on port 3000');
+app.listen(app.get("port"), function () {
+  console.log('AbilityDraft.net is listening on port' + app.get("port"));
 })
 
 
