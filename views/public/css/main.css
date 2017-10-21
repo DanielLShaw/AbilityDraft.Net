@@ -1,0 +1,73 @@
+body {
+    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    background-color: red;
+}
+
+#search {
+    display: flex;
+    height: 2em;
+    justify-content: center;
+}
+
+#heroPortraits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#debug {
+    height: 1em;
+    background-color: red;
+}
+
+@media (max-device-width:320px) {
+    #debug {
+        background-color: orange;
+    }
+}
+
+@media (max-device-width:375px) and (min-device-width:321px) {
+    #debug {
+        background-color: yellow;
+    }
+}
+
+@media (max-device-width:425px) and (min-device-width:376px) {
+    #debug {
+        background-color: green;
+    }
+}
+
+@media (max-device-width:768px) and (min-device-width:426px) {
+    #debug {
+        background-color: blue;
+    }
+}
+
+@media (max-device-width:1024px) and (min-device-width:769px) {
+    #debug {
+        background-color: indigo;
+    }
+}
+
+@media (max-device-width:1440px) and (min-device-width:1025px) {
+    #debug {
+        background-color: violet;
+    }
+}
+
+@media (min-device-width:1441px) {
+    #debug {
+        background-color: white;
+    }
+}
